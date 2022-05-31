@@ -10,7 +10,8 @@ docker build -t tspoolst/webmin .
 
 ## Running the container
 ```
-docker run -d -p 10000:10000 tspoolst/webmin
+docker run --rm -d --name webmin -p 10000:10000 -v webmin_cfg:/etc/webmin tspoolst/webmin
+
 ```
 
 Log into webmin and manage your server
