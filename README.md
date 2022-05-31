@@ -3,7 +3,7 @@ dockerfile for webmin
 
 ## Building the image
 ```
-git clone https://github.com/chsliu/docker-webmin.git
+git clone https://github.com/tspoolst/docker-webmin.git
 cd docker-webmin
 docker build -t tspoolst/webmin .
 ```
